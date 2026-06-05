@@ -1,0 +1,1 @@
+Currently on: Course 2 - Programming with JavaScript (22%)
