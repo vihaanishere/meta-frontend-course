@@ -1,6 +1,6 @@
 # Day 2 - Meta Frontend Developer Course
 
-**Course Progress:** 31% through Course 2
+**Course Progress:** 41% through Course 2
 **Date:** June 6, 2026
 **Topic:** Core JavaScript Concepts — Module 2 Complete
 
