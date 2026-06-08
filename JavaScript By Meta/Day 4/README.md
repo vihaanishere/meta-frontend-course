@@ -1,6 +1,6 @@
 # Day 4 - Meta Frontend Developer Course
 
-**Course Progress:** 53% → ongoing | Course 2
+**Course Progress:** 57% → ongoing | Course 2
 **Date:** June 8, 2026
 **Topic:** Functional Programming, Scopes, Recursion & Revision
 
