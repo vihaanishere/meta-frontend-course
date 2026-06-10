@@ -17,8 +17,3 @@ shoes2 = {stock : 150, price: 40, tax: 1,
 console.log(shoes1.totalPrice())
 console.log(shoes2.totalPrice())
 
-//Principles of OOP
-//Inheritance
-// Encapsulation
-// Abstraction 
-// Polymorphism
