@@ -1,0 +1,42 @@
+cd - Change directory
+    cd <directory> to change pointer of the cmd
+    cd .. to go back a step in directory
+touch - New file of specified type
+    touch Example.txt (Empty file)
+mkdir - New folders
+    mkdir <folder-name>
+code - Opens the file in VS Code
+    code <file-name>
+ls - Shows list 
+    ls -l (Shows read/write info)
+    ls -a (All files including hidden)
+pwd - Shows path of working directory
+cp - Copies file
+mv - Move files from directory
+
+
+Creating script from Bash
+vim testshell.sh (To create a excecutable file)
+(Press "I" key to enable insert mode)
+#!/bin/bash (Making the OS know that its an excecutable bash file)
+    echo "Hello World"
+    Press "esc"
+:wq! to save the file
+(This is not excecutable right now)
+chmod 755 testshell.sh (Now its excecutable)
+#./testshell.sh (To run the file)
+mv <file to be moved> <place it needs to be moved>
+cat - Shows content of the file
+wc (Shows description of the file)
+wc <file-name>
+    -w (Number of Words)
+Using Pipes
+ls | wc -w (Returns number of files)
+cat <file>.txt | wc -w (Number of words in file)
+cat <file1>.txt <file2>.txt | wc -w (Number of words in both files (combined))
+grep - Searches for text in a file
+    grep <text to be searched> <file>
+    -i (Includes both uppercase, lowercase, in between, starting, or ending of the word)
+    -w (Exactly matching the text)
+Piping
+ls <directory>| grep <text> 

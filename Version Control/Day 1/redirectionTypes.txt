@@ -1,0 +1,17 @@
+Three types of input
+1) Standard input
+cat > input.txt
+<Text thats need to be added>
+
+2) Standard Output
+cat < input.txt
+<Output that we typed>
+
+ls -l > output.txt
+less output.txt
+
+3) Standard Error
+<command> 2> <file-name>.txt
+less <file-name>.txt
+
+
