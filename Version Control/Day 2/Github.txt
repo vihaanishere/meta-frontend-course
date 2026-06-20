@@ -1,0 +1,5 @@
+Github Commands 
+git status - Shows the number of comitments left to push and number of untracked files
+git add - Helps in tracking file, hence will be added to commit 
+Untracking the file
+git restore --stage <filename>
