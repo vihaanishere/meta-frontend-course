@@ -3,3 +3,22 @@ git status - Shows the number of comitments left to push and number of untracked
 git add - Helps in tracking file, hence will be added to commit 
 Untracking the file
 git restore --stage <filename>
+git commit -m "Message" 
+git checkout -B <directory> (Creates new branch)
+git branch
+(Lists branches and tell which branch we currently in)
+git push -u orign (branch-name) - This will only push the changes of the given branch name 
+This branch can be further merged into main branch
+git innit - (Makes/Initialises a git repository)
+git remote (Shows the server/github connection)
+    -v (Checks if it has a URI)
+    add - gi remote add <bra> git@....
+git pull - Takes all the changes added and reflects in shell output
+git checkout main
+git diff HEAD README.md
+git log --pretty=oneline
+git diff <change> <changeto>
+git diff <branch> <branchto>
+git blame <filename>
+    -L <lineStart> <lineEnd>
+    -l (more detailed)
