@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Element</title>
+</head>
+<body>
+    <div>
+        <lable for="booking_date">Booking Date</lable>
+        <input type="date" name ="booking_date" id="booking_date">
+    </div>
+    <div>
+        <lable for="booking_people">Number of people</lable>
+        <input type = "range" name="booking_people" id="booking_people" min="1" max="10" value="4" oninput="this.nextElementSibling.value = this.value">
+        <output>4</output>
+    </div>
+    <div>
+        <label for="booking_location">Location</label>
+        <input id ="booking_location" name="booking_location" list="locations">
+        <datalist id="locations">
+            <option value="Downtown"></option>
+            <option value="Uptown"></option>
+        </datalist>
+    </div>
+</body>
+</html>
