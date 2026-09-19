@@ -1,0 +1,36 @@
+.parent{
+    display:grid;
+    grid-template-columns: repeat(12, 1fr);
+
+}
+.segment{
+    display:grid;
+    place-item: center;
+    text-align: center;
+    grid-template-rows: 100px;
+}
+.eleven{
+    background-color: lightseagreen;
+    grid-column: 1/span 12;
+}
+.nine{
+    background-color: peachpuff;
+    grid-column: 5/span 9;
+}
+.eight{
+    background-color: lightblue;
+    grid-column: 1/span 8;
+}
+.five{
+    background-color: yellow;
+    grid-column: 7/span 5;
+}
+.three{
+    background-color: darkgoldenrod;
+    grid-column: 9/span 3;
+
+}
+.one{
+    background-color: blueviolet;
+    grid-column: 6/span 1;
+}

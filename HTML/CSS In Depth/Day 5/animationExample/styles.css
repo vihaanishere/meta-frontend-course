@@ -1,0 +1,15 @@
+@keyframes bounce{
+    from{
+        transform: translate3d(0,0,0);
+    }
+    to{
+        transform: translate3d(640px,0,0);
+    }
+}
+.ball{
+    height: 80px;
+    width: 80px;
+    background-color:blue;
+    border-radius: 50%;
+    animation: bounce 3s infinite alternate;
+}

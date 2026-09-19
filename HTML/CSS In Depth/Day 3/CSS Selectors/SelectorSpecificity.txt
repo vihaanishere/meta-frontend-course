@@ -1,0 +1,151 @@
+ Inline Styles are at the top most hierarchy
+ Example:
+  <p style=“color: white;”> 
+p{color: blue} 
+
+Above code will ouput the color as white
+
+
+
+ID's comes the next which are represented by using "#" in css
+
+
+Then comes classes, attributes, and pseudo-classes
+Example
+.class{
+    <rules>
+}
+
+p["attributes"]
+
+a:hover{
+
+}
+
+Then element and pseudo-element
+
+Child Selectors: Only elements directly inside the parent elements are selected
+This is done by using ">" symbol
+
+Example:
+    CSS:
+    .parent > p{
+        <rules>
+    }
+
+    <div class = "parent">
+        <p> Will be applied</p>
+        <div class = "grandchild">
+            <p> Will be ignored</p>
+        </div>
+    </div>
+
+General Sibling Selectors: These only select those elements 
+<div id = "blog">
+    <h1>Latest News</h1>
+    <div>
+        <h1>Weather Forcast</h1>
+        <p>Today will be sunny</p>
+        <p>Temp 25 Degree </p>
+    </div>
+</div>
+h1 ~ p {
+    color:blue;
+}
+
+This will select all the paragraph tag following a h1 tag
+
+<div id = "blog">
+    <h1>Latest News</h1>
+    <div>
+        <h1>Weather Forcast</h1>
+        <p>Today will be sunny</p>
+        <p>Temp 25 Degree </p>
+    </div>
+</div>
+
+h1 + p {
+    color:blue;
+}
+
+
+This will only select the upcoming adjecent p tag after the h1 tag
+
+
+
+Pseudo Class
+
+Action Pseudo Class - 
+    :hover - Moving mouse over some tag
+    :active - Presses and hold the tag 
+    :focus
+
+Form State Pseudo Class - 
+    :disabled and :enabled
+    :checked and :inderminate
+    :valid and :invalid
+
+Specific Position Based Class - 
+    :first-of-type
+        Example:
+            HTML:
+            <body>
+                <ul>
+                    <li> Name 1 <li>
+                    <li> Name 2 <li>
+                </ul>
+            </body>
+
+            CSS:
+            li::first-of-type{          //Note that pseudo selectors use two ":" not one
+                <rules>
+            }
+
+            //Will ONLY be applied to name 1
+
+    :last-of-type
+    :nth-of-type()
+    :nth-last-of-type()
+
+
+
+Other Pseudo Selectors - 
+    :first-letter
+    :first-line
+    :selection (When user selects some text)
+    :marker
+    :before and :after
+    Example: 
+    HTML:
+        <body>
+            <p id="tips"> Don't rinse your pasta after it is drained. </p>
+            <p> Slice the tomatoes. Take the extra efforts to seed them. </p>
+            <p id="tips"> Peel and seed large tomatoes. </p>
+        </body>
+    CSS:
+        #tips::before{
+            background: darkkhaki;
+            color:darkslategray;
+            content: "Tip:";
+            padding-left: 3px;
+            padding-right: 5px;
+            border-radius: 10%;
+        }
+
+        #tips::after{
+            background:darkkhaki;
+            color:darkslategray;
+            content: "!!";
+            padding-right: 5px;
+            border-radius: 20%;
+        }
+
+    :link
+    :visited
+
+
+    Use LVHA for links
+    L - links
+    V - visited
+    H - hover
+    A - active

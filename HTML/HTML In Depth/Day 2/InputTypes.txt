@@ -52,7 +52,7 @@ File
 
 
 Client Side Validation
-<input type="" id="" name="" required>
+<input type="" id="<IDOfTheElement>" name="<NameOfTheElement>" required>
 <input type="" id="" name="" required minlength="" required maxlength ="">
 
 CSS:

@@ -1,0 +1,28 @@
+.text1{
+    text-transform: capitalize;
+    font-style: italic;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-decoration-color: aqua;
+    text-decoration-line:underline;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 10px;
+
+    
+}
+.text2{
+    text-justify:auto;
+    text-align: center;
+    text-combine-upright:initial;
+    text-indent: 50px;
+    text-orientation:sideways-right;
+    text-shadow: 10px grey;
+
+}
+
+.text3{
+    text-overflow: ellipsis;
+    word-wrap: normal;
+    word-break: break-all;
+    writing-mode: vertical-rl;
+}
